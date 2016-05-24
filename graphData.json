@@ -1,0 +1,71 @@
+{
+	"nodes": [
+		{
+			"name": "apple",
+			"group": 1,
+			"nweight": 15
+		},
+		{
+			"name": "google",
+			"group": 2,
+			"nweight": 40
+		},
+		{
+			"name": "samsung",
+			"group": 3,
+			"nweight": 55
+		},
+		{
+			"name": "ms",
+			"group": 4,
+			"nweight": 45
+		},
+		{
+			"name": "ibm",
+			"group": 5,
+			"nweight": 30
+		},
+		{
+			"name": "facebook",
+			"group": 6,
+			"nweight": 20
+		}
+	],
+	"links": [
+		{
+			"source": 1,
+			"target": 0,
+			"value": 1
+		},
+		{
+			"source": 0,
+			"target": 1,
+			"value": 1
+		},
+		{
+			"source": 2,
+			"target": 0,
+			"value": 8
+		},
+		{
+			"source": 3,
+			"target": 1,
+			"value": 16
+		},
+		{
+			"source": 0,
+			"target": 4,
+			"value": 1
+		},
+		{
+			"source": 3,
+			"target": 1,
+			"value": 16
+		},
+		{
+			"source": 5,
+			"target": 4,
+			"value": 88
+		}
+	]
+}

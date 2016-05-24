@@ -1,0 +1,37 @@
+{
+	"width": 1280,
+	"height": 800,
+	"charge" : -1000,
+	"distance" : 200,
+	"marker": {
+		"grow": 1,
+		"count": 10,
+		"circle": {
+			"width": 8,
+			"height": 8,
+			"refX": 5,
+			"refY": 5,
+			"cx": 5,
+			"cy": 5,
+			"r": 3,
+			"id": "markerCircle"
+		},
+		"arrow": {
+			"path": [
+				2,
+				2,
+				2,
+				11,
+				10,
+				6,
+				2,
+				2
+			],
+			"width": 13,
+			"height": 13,
+			"refX": 10,
+			"refY": 6,
+			"id": "markerArrow"
+		}
+	}
+}
